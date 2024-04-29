@@ -1,0 +1,215 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+   Mindy Chu
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html{
+    width: 320px;
+    justify-content: center;
+}
+  body, footer{
+    display: block;
+    
+  }
+  header{
+    text-align: center;
+    display: flex;
+  }
+  header, #intro{
+    display: block;
+    background: rgb(85,188,213);
+    background: linear-gradient(180deg, rgba(85,188,213,1) 0%, rgba(255,255,255,1) 10%);
+  }
+  #logo{
+    display: flex;
+  }
+  h1, h2, h3{
+    font-family: Molle;
+    font-size: 50px;
+  }
+  h4, p, q, small, nav, button, form{
+    font-family: Montserrat;
+  }
+  #menu-toggle {
+    background-color: #F6D64A;
+    color: #000;
+    justify-content: center;
+    text-align: center;
+    align-content: center;
+    text-transform: uppercase;
+    font-family: Montserrat;
+    font-weight: bold;
+ }
+  .sr-only{
+    height: 0;
+    width: 0;
+    overflow: hidden;
+  }
+  ul{
+    color: black;
+    background-color: #55BCD5;
+    
+  }
+  ul li{
+    height: 100px;
+    border: 1px solid black;
+  }
+  nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+  }
+  nav a{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-family: Montserrat;
+  }
+#plan{
+    display: block;
+    background-color: #F6D64A;
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  #plan section{
+    background-color: #55BCD5;
+    margin: 10px;
+    padding: 20px;
+    border:5px solid white;
+    align-items: center;
+    border-radius: 15px;
+    text-align: center;
+
+
+  }
+  #plan h4{
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+    #about{
+    background-color: #499BD2;
+    padding-top: 20px;
+  }
+  #about section{
+    display: grid;
+    padding-top: 20px;
+    text-align: center;
+    grid-template-columns: 1fr 1fr;
+    }
+
+    #img-grid{
+    display: grid;
+    width: 100%; /* Make images fill the entire cell */
+    height: auto;
+  }
+
+    #img-grid img{
+    max-width: 320px;
+    margin: 0 auto;
+  }
+  #testimonials h4{
+    font-size: 30px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  #testimonials{
+    padding-top: 50px;
+  }
+  #testimonials section{
+    text-align: center;
+  }
+  #testimonials q{
+    font-style: italic;
+  }
+  #destination, #travelTime{
+    width: 100%;
+    border: solid #9B26B0;
+  }
+  #contact label{
+    display: block;
+    text-transform: uppercase;
+    font-weight: bold;
+    align-items: center;
+    padding-top: 10px;
+}
+#contact input{
+    width: 100%;
+    border: solid #9B26B0;
+    height: 50px;
+}
+#contact form span{
+    color: #9B26B0;
+}
+#mySubmit{
+    background-color: #9B26B0;
+    color: white;
+    padding: 20px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+footer{
+    background-color: #EAEAEA;
+    text-align: center;
+}
+footer p {
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+
+footer a{
+    text-decoration: none;
+    display: block;
+    padding: 10px;
+    color: black;
+    font-family: Montserrat;
+}
